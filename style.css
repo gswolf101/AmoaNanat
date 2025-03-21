@@ -48,7 +48,7 @@ h2 {
     text-align: center;  /* Centraliza o texto */
     margin: 0;  /* Remove qualquer margem extra */
     padding: 0;  /* Remove o preenchimento extra */
-    font-size: 8px;
+    scale: 4;
 }
 
 /* Estilo do campo */
