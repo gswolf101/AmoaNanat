@@ -36,15 +36,18 @@ h1 {
     color: rgb(247, 0, 103);
     font-size: 4em;
     font-family: 'sans-serif';
-    text-align: center;  /* Adicionado para centralizar */
+    text-align: center;  /* Centraliza o texto */
+    margin: 0;  /* Remove qualquer margem extra */
+    padding: 0;  /* Remove o preenchimento extra */
 }
 
 /* Centralizando h2 */
 h2 {
     color: rgb(206, 73, 144);
-    text-align: center;  /* Adicionado para centralizar */
+    text-align: center;  /* Centraliza o texto */
+    margin: 0;  /* Remove qualquer margem extra */
+    padding: 0;  /* Remove o preenchimento extra */
 }
-
 
 /* Estilo do campo */
 fieldset {
