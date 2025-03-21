@@ -39,7 +39,7 @@ h1 {
     text-align: center;  /* Centraliza o texto */
     margin: 0;  /* Remove qualquer margem extra */
     padding: 0;  /* Remove o preenchimento extra */
-    font-size: 3.5em;
+
 }
 
 /* Centralizando h2 */
@@ -48,6 +48,7 @@ h2 {
     text-align: center;  /* Centraliza o texto */
     margin: 0;  /* Remove qualquer margem extra */
     padding: 0;  /* Remove o preenchimento extra */
+    font-size: 8px;
 }
 
 /* Estilo do campo */
