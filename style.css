@@ -31,17 +31,20 @@ li {
     margin: 5px 0;
 }
 
-/* Estilo do cabeçalho principal */
+/* Centralizando h1 */
 h1 {
     color: rgb(247, 0, 103);
     font-size: 4em;
     font-family: 'sans-serif';
+    text-align: center;  /* Adicionado para centralizar */
 }
 
-/* Estilo dos subtítulos */
+/* Centralizando h2 */
 h2 {
     color: rgb(206, 73, 144);
+    text-align: center;  /* Adicionado para centralizar */
 }
+
 
 /* Estilo do campo */
 fieldset {
