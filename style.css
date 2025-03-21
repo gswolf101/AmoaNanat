@@ -1,0 +1,59 @@
+/* Estilos gerais */
+body {
+    background-image: url(imagens/fundo.png);  /* Definindo uma imagem de fundo */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho e imagens */
+figure img {
+    width: 30%;  /* Redimensiona as imagens */
+    margin: 10px;
+}
+
+/* Estilo da lista ordenada */
+ol {
+    list-style-type: none;  /* Remove a numeração da lista */
+    padding: 0;
+    text-align: left;  /* Alinha os itens da lista à esquerda */
+    margin: 0 auto;
+    width: 80%;  /* Faz a lista ocupar 80% da largura da página */
+}
+
+/* Estilo dos itens da lista */
+li {
+    font-family: 'sans-serif';
+    font-size: 22px;
+    color: rgb(99, 0, 67);
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* Estilo do cabeçalho principal */
+h1 {
+    color: rgb(247, 0, 103);
+    font-size: 4em;
+    font-family: 'sans-serif';
+}
+
+/* Estilo dos subtítulos */
+h2 {
+    color: rgb(206, 73, 144);
+}
+
+/* Estilo do campo */
+fieldset {
+    border-color: rgb(247, 0, 103);
+    border-width: 2px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Separador */
+hr {
+    border-style: solid;
+    border-color: rgb(247, 0, 103);
+    margin-top: 20px;
+}
