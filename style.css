@@ -72,4 +72,5 @@ p {
     color: rgb(73, 5, 64);
     font-size: 10;
     SCALE: 2;
+    max-width: 50ch;
 }
