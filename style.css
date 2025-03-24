@@ -73,4 +73,5 @@ p {
     font-size: 10;
     SCALE: 2;
     max-width: 50ch;
+    ext-align: center;
 }
