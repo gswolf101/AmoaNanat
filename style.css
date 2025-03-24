@@ -67,8 +67,7 @@ hr {
 }
 
 p {
-      columns: 3; /* Define 3 colunas */
-    column-gap: 20px; /* Espaçamento entre as colunas */
+
     text-align: center; /* Centraliza o texto dentro de cada coluna */
     color: rgb(73, 5, 64);
     font-size: 10;
