@@ -65,3 +65,8 @@ hr {
     border-color: rgb(247, 0, 103);
     margin-top: 20px;
 }
+
+p {
+    columns: 2;
+    column-gap: 20px;
+}
