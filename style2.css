@@ -65,6 +65,7 @@ hr {
     border-style: solid;
     border-color: rgb(247, 0, 103);
     margin-top: 20px;
+    border-radius: 2;
 }
 
 p {
