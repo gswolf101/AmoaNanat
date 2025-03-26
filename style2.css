@@ -76,11 +76,13 @@ p {
     SCALE: 1.06;
     max-width: 30ch;
 }
-
 h3 {
     color: rgb(131, 68, 120);
-    scale: 1.5;
-    text-align: center;
+    scale: 1;
+    text-align:-moz-center;
+    text-anchor:  middle;
+    max-width: 24ch
 }
+
 
 
