@@ -3,7 +3,8 @@ body {
     background-image: url(Fundo.png);  /* Definindo uma imagem de fundo */
     text-align: center;
     font-family: 'Arial', sans-serif;
-    margin: 0;
+    width: 60%;
+    column-width: auto;
     padding: 0;
 }
 
