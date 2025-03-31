@@ -10,12 +10,16 @@ body {
 }
 
 /* Cabeçalho e imagens */
-figure a img {
-    width: 30%;  /* Redimensiona as imagens */
-    margin: 10px;
+figure a img.hover {
+    display: none;
 }
-figure a:hover {
-    mask-image: url(/imagens/hellokitty.png);
+
+figure a:hover img.normal {
+    display: none;
+}
+
+figure a:hover img.hover {
+    display: inline;
 }
 
 /* Estilo da lista ordenada */
