@@ -10,10 +10,11 @@ body {
 }
 
 /* Cabeçalho e imagens */
+ /* Redimensiona as imagens */
 figure a img {
-    width: 30%;  /* Redimensiona as imagens */
+    width: 30%; 
     margin: 10px;
-
+}
 /* Estilo da lista ordenada */
 ol {
     list-style-type: none;  /* Remove a numeração da lista */
