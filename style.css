@@ -43,18 +43,22 @@ h1 {
     padding: 0;  /* Remove o preenchimento extra */
 
 }
+CSS:
 
 #kuromi_botão {
     width: 30%; 
     height: 100px; /* Ajuste a altura conforme necessário */
     margin: 10px;
-    background-image: url('imagens/Voltar_botão.png'); /* Imagem normal */
-    background-size: cover; /* Faz com que a imagem cubra todo o espaço da div */
-    transition: background-image 0.3s ease; /* Adiciona uma transição suave */
 }
 
-#kuromi_botão:hover {
-    background-image: url('imagens/hellokitty.png'); /* Imagem quando passar o cursor */
+#kuromi_botão img {
+    width: 100%;  /* A imagem ocupa toda a largura da div */
+    height: 100%; /* A imagem ocupa toda a altura da div */
+    transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
+}
+
+#kuromi_botão:hover img {
+    content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
 }
 
 
