@@ -47,13 +47,13 @@ CSS:
 
 #kuromi_botão {
     width: 45%; 
-    height: 100px; /* Ajuste a altura conforme necessário */
+    height: auto; /* Ajuste a altura conforme necessário */
     margin: 10px;
 }
 
 #kuromi_botão img {
     width: 45%;  /* A imagem ocupa toda a largura da div */
-    height: 100px; /* A imagem ocupa toda a altura da div */
+    height: auto; /* A imagem ocupa toda a altura da div */
     transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
 }
 
