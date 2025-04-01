@@ -12,7 +12,7 @@ body {
 /* Cabeçalho e imagens */
  /* Redimensiona as imagens */
 figure a img {
-    width: 70%; 
+    width: 45%; 
     margin: 10px;
 }
 /* Estilo da lista ordenada */
@@ -46,14 +46,14 @@ h1 {
 CSS:
 
 #kuromi_botão {
-    width: 70%; 
+    width: 45%; 
     height: 100px; /* Ajuste a altura conforme necessário */
     margin: 10px;
 }
 
 #kuromi_botão img {
-    width: 100%;  /* A imagem ocupa toda a largura da div */
-    height: 100%; /* A imagem ocupa toda a altura da div */
+    width: 45%;  /* A imagem ocupa toda a largura da div */
+    height: 100px; /* A imagem ocupa toda a altura da div */
     transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
 }
 
