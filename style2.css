@@ -7,6 +7,11 @@ body {
     column-width: auto;
 }
 
+#Voltar_botão {
+    width: 50%; /* A largura será 50% do tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 /* Cabeçalho e imagens */
 figure img {
     width: 30%;  /* Redimensiona as imagens */
