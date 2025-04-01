@@ -9,7 +9,7 @@ body {
 
 #Voltar_botão {
     width: 50%; /* A largura será 50% do tamanho do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    height: 75px; /* Mantém a proporção da imagem */
     margin: 0 auto;
 }
 
