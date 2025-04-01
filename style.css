@@ -13,10 +13,6 @@ body {
 figure a img {
     width: 30%;  /* Redimensiona as imagens */
     margin: 10px;
-}
-figure a:hover {
-    mask-image: url(/imagens/hellokitty.png);
-}
 
 /* Estilo da lista ordenada */
 ol {
