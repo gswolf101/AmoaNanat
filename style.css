@@ -47,18 +47,22 @@ h1 {
 #kuromi_botão {
     width: 45%; 
     height: auto; /* Ajuste a altura conforme necessário */
-    margin: 10px;
+    margin: 10px auto; /* Centraliza a div (o botão) na página */
+    display: block; /* Faz com que a div se comporte como um bloco, permitindo centralizar */
 }
 
 #kuromi_botão img {
-    width: 45%;  /* A imagem ocupa toda a largura da div */
-    height: auto; /* A imagem ocupa toda a altura da div */
+    width: 100%;  /* A imagem ocupa toda a largura da div */
+    height: auto; /* Mantém a proporção da imagem */
     transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
 }
 
 #kuromi_botão:hover img {
     content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
+    width: 90%;  /* A imagem ocupa toda a largura da div */
+    height: auto; /* Mantém a proporção da imagem */
 }
+
 
 
 /* Centralizando h2 */
