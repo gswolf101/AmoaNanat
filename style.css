@@ -52,7 +52,7 @@ hr {
 
 #kuromi_botão:hover img {
     content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
-    width: 87.8%;  /* A imagem ocupa toda a largura da div */
+    width: 87%;  /* A imagem ocupa toda a largura da div */
     height: auto; /* Mantém a proporção da imagem */
 }
 
