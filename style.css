@@ -1,4 +1,7 @@
-/* Estilos gerais */
+
+/*#################################################################################################*/
+/* Campos de estilo */
+
 body {
     background-image: url(Fundo.png);  /* Definindo uma imagem de fundo */
     text-align: center;
@@ -9,39 +12,29 @@ body {
     padding: 0;
 }
 
-/* Cabeçalho e imagens */
- /* Redimensiona as imagens */
 figure a img {
     width: 45%; 
     margin: 10px;
 }
-/* Estilo da lista ordenada */
-ol {
-    list-style-type: none;  /* Remove a numeração da lista */
-    padding: 0;
-    text-align: left;  /* Alinha os itens da lista à esquerda */
-    margin: 0 auto;
-    width: 80%;  /* Faz a lista ocupar 80% da largura da página */
+
+fieldset {
+    border-color: rgb(247, 0, 103);
+    border-width: 2px;
+    background-color: rgb(255, 192, 225, 0.699);
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
 }
 
-/* Estilo dos itens da lista */
-li {
-    font-family: 'sans-serif';
-    font-size: 22px;
-    color: rgb(99, 0, 67);
-    font-weight: bold;
-    margin: 5px 0;
+hr {
+    border-style: solid;
+    border-color: rgb(247, 0, 103);
+    margin-top: 20px;
 }
 
-/* Centralizando h1 */
-h1 {
-    color: rgb(247, 0, 103);
-    font-size: 4em;
-    font-family: 'sans-serif';
-    text-align: center;  /* Centraliza o texto */
-    margin: 0;  /* Remove qualquer margem extra */
-    padding: 0;  /* Remove o preenchimento extra */
 
+/*#################################################################################################*/
+/* IDs */
 }
 
 #kuromi_botão {
@@ -70,32 +63,8 @@ h1 {
     margin: 0 auto;
 }
 
-/* Centralizando h2 */
-h2 {
-    color: rgb(206, 73, 144);
-    text-align: center;  /* Centraliza o texto */
-    margin: 0;  /* Remove qualquer margem extra */
-    padding: 0;  /* Remove o preenchimento extra */
-    scale: 1.1;
-}
-
-/* Estilo do campo */
-fieldset {
-    border-color: rgb(247, 0, 103);
-    border-width: 2px;
-    background-color: rgb(255, 192, 225, 0.699);
-    padding: 10px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-/* Separador */
-hr {
-    border-style: solid;
-    border-color: rgb(247, 0, 103);
-    margin-top: 20px;
-}
-
+/*#################################################################################################*/
+/* textos */
 p {
 
     text-align: center; /* Centraliza o texto dentro de cada coluna */
@@ -104,4 +73,44 @@ p {
     SCALE: 1.45;
     max-width: 30ch;
     text-align: center;
+}
+
+h3 {
+    color: rgb(131, 68, 120);
+    scale: 1;
+    text-align:-moz-center;
+    text-anchor:  middle;
+    max-width: 24ch
+}
+
+h2 {
+    color: rgb(206, 73, 144);
+    text-align: center;  /* Centraliza o texto */
+    margin: 0;  /* Remove qualquer margem extra */
+    padding: 0;  /* Remove o preenchimento extra */
+    scale: 1.1;
+}
+
+h1 {
+    color: rgb(247, 0, 103);
+    font-size: 4em;
+    font-family: 'sans-serif';
+    text-align: center;  /* Centraliza o texto */
+    margin: 0;  /* Remove qualquer margem extra */
+    padding: 0;  /* Remove o preenchimento extra */
+}
+li {
+    font-family: 'sans-serif';
+    font-size: 22px;
+    color: rgb(99, 0, 67);
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+    ol {
+    list-style-type: none;  /* Remove a numeração da lista */
+    padding: 0;
+    text-align: left;  /* Alinha os itens da lista à esquerda */
+    margin: 0 auto;
+    width: 80%;  /* Faz a lista ocupar 80% da largura da página */
 }
