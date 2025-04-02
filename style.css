@@ -18,7 +18,7 @@ fieldset {
     border-width: 2px;
     background-color: rgb(255, 192, 225, 0.699);
     padding: 10px;
-    margin-top: 200px; /* Adiciona uma margem superior para separar do conteúdo acima */
+    margin-top: 20px; /* Adiciona uma margem superior para separar do conteúdo acima */
     text-align: center;
 }
 
@@ -32,6 +32,7 @@ hr {
 /*#################################################################################################*/
 /* IDs */
 
+/*=================================botão kuromi===================================================*/
 #kuromi_botão {
     width: 45%;
     height: 180px; /* Define uma altura fixa para o botão */
@@ -49,6 +50,8 @@ hr {
 #kuromi_botão:hover img {
     content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
 }
+
+/*=================================botão voltar===================================================*/
 
 /* Estilos gerais para o botão "Voltar" */
 #Voltar_botão {
@@ -73,6 +76,17 @@ hr {
     #Voltar_botão img {
         width: 100%; /* A imagem ocupa 100% da largura da div, mas o botão vai ser maior */
     }
+}
+
+/*=================================fieldset1===================================================*/
+
+#fieldset1 {
+    border-color: rgb(247, 0, 103);
+    border-width: 2px;
+    background-color: rgb(255, 192, 225, 0.699);
+    padding: 10px;
+    margin-top: 200px; /* Adiciona uma margem superior para separar do conteúdo acima */
+    text-align: center;
 }
 
 /*#################################################################################################*/
