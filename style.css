@@ -10,8 +10,8 @@ body {
     margin: 20%;
     column-width: auto;
     padding: 0;
-    background-image: url(imagens/borda_esquerda.png);
-    background-repeat: repeat-y;
+    /*background-image: url(imagens/borda_esquerda.png);
+    background-repeat: repeat-y;*/
 }
 
 
