@@ -18,9 +18,10 @@ fieldset {
     border-width: 2px;
     background-color: rgb(255, 192, 225, 0.699);
     padding: 10px;
-    margin-top: 20px; /* Adiciona uma margem superior para separar do conteúdo acima */
+    margin-top: 370px; /* Aumenta a margem superior para garantir maior separação do kuromi_botão */
     text-align: center;
 }
+
 
 hr {
     border-style: solid;
