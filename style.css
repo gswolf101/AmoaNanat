@@ -18,7 +18,7 @@ fieldset {
     border-width: 2px;
     background-color: rgb(255, 192, 225, 0.699);
     padding: 10px;
-    margin-top: 60px; /* Adiciona uma margem superior para separar do conteúdo acima */
+    margin-top: 200px; /* Adiciona uma margem superior para separar do conteúdo acima */
     text-align: center;
 }
 
