@@ -18,7 +18,7 @@ fieldset {
     border-width: 2px;
     background-color: rgb(255, 192, 225, 0.699);
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 20px; /* Adiciona uma margem superior para separar do conteúdo acima */
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ hr {
 #kuromi_botão {
     width: 45%;
     height: 180px; /* Define uma altura fixa para o botão */
-    margin: 10px auto; /* Centraliza a div (o botão) na página */
+    margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
     display: block;
 }
 
@@ -49,8 +49,6 @@ hr {
 #kuromi_botão:hover img {
     content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
 }
-
-
 
 #Voltar_botão {
     width: 50%; /* A largura será 50% do tamanho do contêiner */
