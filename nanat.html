@@ -1,151 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+    <link rel="stylesheet" href="style2.css"> 
+</head>
+<body>
+    <div id="Voltar_botão">
+        <figure>
+            <a href="index.html">
+                <img src="imagens/Voltar_botão.png" alt="Botão de Voltar">
+              </a>
+        </figure>
 
-/*#################################################################################################*/
-/* Campos de estilo */
-
-body {
-    background-image: url(Fundo.png);  /* Definindo uma imagem de fundo */
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    width: 60%;
-    margin: 20%;
-    column-width: auto;
-    padding: 0;
-}
-
-
-fieldset {
-    border-color: rgb(247, 0, 103);
-    border-width: 2px;
-    background-color: rgb(255, 192, 225, 0.699);
-    padding: 10px;
-    margin-top: 20px; /* Adiciona uma margem superior para separar do conteúdo acima */
-    text-align: center;
-}
-
-hr {
-    border-style: solid;
-    border-color: rgb(247, 0, 103);
-    margin-top: 20px;
-}
-
-
-/*#################################################################################################*/
-/* IDs */
-
-/*=================================botão kuromi===================================================*/
-#kuromi_botão {
-    width: 45%;
-    height: 180px; /* Define uma altura fixa para o botão */
-    margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
-    display: block;
-}
-
-#kuromi_botão img {
-    width: 100%;  /* A imagem ocupa toda a largura da div */
-    height: 100%; /* A altura da imagem ocupa toda a altura da div */
-    transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
-    object-fit: contain; /* Mantém a proporção da imagem sem distorcer */
-}
-
-#kuromi_botão:hover img {
-    content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
-}
-
-/*=================================botão voltar===================================================*/
-
-/* Estilos gerais para o botão "Voltar" */
-#Voltar_botão {
-    width: 20%; /* Largura inicial para telas maiores */
-    height: auto;
-    margin: 20px auto;
-    display: block;
-}
-
-#Voltar_botão img {
-    width: 100%; /* A imagem ocupa 100% da largura da div */
-    height: auto; /* Mantém a proporção da imagem */
-    transition: opacity 0.3s ease;
-}
-
-/* Media Query para telas pequenas (mobile) */
-@media (max-width: 768px) {
-    #Voltar_botão {
-        width: 40%; /* Aumenta o tamanho do botão para telas menores */
-    }
-
-    #Voltar_botão img {
-        width: 100%; /* A imagem ocupa 100% da largura da div, mas o botão vai ser maior */
-    }
-}
-
-/*=================================fieldset1===================================================*/
-
-#fieldset1 {
-    border-color: rgb(247, 0, 103);
-    border-width: 2px;
-    background-color: rgb(255, 192, 225, 0.699);
-    padding: 10px;
-    margin-top: 200px; /* Adiciona uma margem superior para separar do conteúdo acima */
-    text-align: center;
-}
-
-/*=================================borda_direita===================================================*/
-
-#borda_direita {
-    background-image: url(borda_direita.png);
-    background-repeat: repeat-y;*/
-}
+    </div>
 
 
 
-/*#################################################################################################*/
-/* textos */
-p {
+<h1>Puzzles</h1>
+<fieldset>
+    <h3>-.-. .- .-. .- / -. .- - .. --..-- / -- . ..- / .- -- --- .-. / .--. --- .-. / ...- --- -.-. . / . é / - .- --- / --. .-. .- -. -.. . / --.- ..- . / .--. .- .-. .- / .- -.-. .- -... .- .-. / ... . .-. .- .-.. .- / -- .- .. ... / -.. .. ..-. .. -.-. .. .-.. / -.. --- / --.- ..- . / ...- --- -.-. . / .-.. . .-. / . ... - .- / -- . -. ... .- --. . --..-- / ... .- .. -... .- / --.-</h3>
+</fieldset>
+<br>
+<fieldset>
+    <h3>.-.. .... . / .- -- --- / .- -.-. -.-. .. -- .- / .- ... / .--. .-. --- ..-. ..- -. -.. . --.. .- ... / -.. --- / -- .- .-. --..-- / --- ... / -.-. --- -. ..-. .. -. ... / -.. --- / . ... .--. .- -.-. --- / - . -- .--. --- --..-- / .- ... / --.- ..- . / . .- / -.. . / -- . ..- / ..- .-.. - .. -- --- / ... ..- ... .--. .. .-. --- / ... . -- .--. .-. . .-.-.-</h3>
+</fieldset>
+<br>
+<fieldset>
+    <h3>...- --- -.-. . / .--. .- .-. .- / -- .. -. / é / -.-. --- -- --- / . -. - .-. .- .-. / -. --- / -- .- .-. / . -- / ..- -- / -.. .. .- / --.- ..- . -. - . / -.. . / ...- . .-. .- --..-- / --- ..- / ..-. .. -.-. .- .-. / . -- -... .-.-.-</h3>
+</fieldset>
+<br>
+<fieldset>
+    <h3>--- -... ... / ... . / ...- --- -.-. . é / -.. . -.-. .. ..-. .-. --- ..- .- .-.-.-</h3>
+</fieldset>
+<br>
+<fieldset>
+    <h3>.- - - : / ... .-. -.-- .--. .-.-.-</h3>
+</fieldset>
+<br>
 
-    text-align: center; /* Centraliza o texto dentro de cada coluna */
-    color: rgb(73, 5, 64);
-    font-size: 10;
-    SCALE: 1.45;
-    max-width: 30ch;
-    text-align: center;
-}
+<hr>
+<!-- teste -->
+<fieldset>
+    <legend>
+        <h3>_ _ _ _ _ _ _</h3> <!--A palavra inicial é "Morango"-->
+        <p> / * @ # + ' *</p>
+    </legend>
+    <h1>Agora vamos praticar!</h1> 
+    <p># \ * % * ! /</p> <!--ta escrito "amo voce"-->
 
-h3 {
-    color: rgb(131, 68, 120);
-    scale: 1;
-    text-align:-moz-center;
-    text-anchor:  middle;
-    max-width: 24ch
-}
+    <p># ^ # @ & . @ ;   ; / % * / @ # % * @ \ * # @ / & @ # + \ @ # % * @ # \ @ % * @ # % @ # \ * % & / % * @ % @ # % * @ # @ % @ # \ @ / # % @ | @ # * @ # % \ @ # % / \ % @ # % \ * @ \ @ # % @ + / \ % * @ # \ @ | % @ % @ # \ @ % @ # @ ~ @ / # % * @ # \ ~ & | @ % @ # % @ @ % @ # % @ \ @ # % * @ & | @ # % * @ & @ | @ % @ # % * @ # & \ ~ @ % \ ( % @ \ / % @ # \ % * @ ~ ( \ @ % % * % * @
+    </p> <!--ta escrito ""a partir de você descobri o que é o verdadeiro amor, assim para você me entrego de corpo e alma para sempre, amo voce de todas as formas que existem e gosto da forma em que meus olhos brilham ao te ver meu docinho de maracuja, te amo! a palavra chave é maracuja""-->
 
-h2 {
-    color: rgb(206, 73, 144);
-    text-align: center;  /* Centraliza o texto */
-    margin: 0;  /* Remove qualquer margem extra */
-    padding: 0;  /* Remove o preenchimento extra */
-    scale: 1.1;
-}
-
-h1 {
-    color: rgb(247, 0, 103);
-    font-size: 4em;
-    font-family: 'sans-serif';
-    text-align: center;  /* Centraliza o texto */
-    margin: 0;  /* Remove qualquer margem extra */
-    padding: 0;  /* Remove o preenchimento extra */
-}
-li {
-    font-family: 'sans-serif';
-    font-size: 22px;
-    color: rgb(99, 0, 67);
-    font-weight: bold;
-    margin: 5px 0;
-}
-
-    ol {
-    list-style-type: none;  /* Remove a numeração da lista */
-    padding: 0;
-    text-align: left;  /* Alinha os itens da lista à esquerda */
-    margin: 0 auto;
-    width: 80%;  /* Faz a lista ocupar 80% da largura da página */
-}
+    <!--
+# = A  
+, = B  
+: = B  
+' = G  
+= = F  
++ = N  
+* = O  
+\ = M  
+% = V  
+! = C  
+. = I  
+/ = E  
+( = U  
+) = W  
+~ = L  
+^ = P  
+_ = Q  
+| = S  
+@ = R  
+; = D  
+? = J  
+{ = X  
+} = Y  
+[ = Z
+    -->
+</fieldset>
+    
+</body>
+</html>
