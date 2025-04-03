@@ -3,10 +3,11 @@
 /* Campos de estilo */
 
 body {
-    background-image: url('Fundo.png'), url('imagens/borda_esqueda.png'), url('imagens/borda_direita.png');
-    background-position: center, left top, right top;
-    background-repeat: repeat, repeat-y, repeat-y;
-    background-size: auto, auto 100%, auto 100%;
+    background-image: url(imagens/Fundo.png);  /* Definindo uma imagem de fundo */
+    background-image: url('imagens/borda_esquerda.png'), url('imagens/borda_direita.png'), url('Fundo.png');
+    background-position:  left top, right top, center;
+    background-repeat: repeat-y, repeat-y, repeat;
+    background-size: auto 15%, auto 15%, auto;
     text-align: center;
     font-family: 'sans-serif', 'Arial';
     width: 60%;
@@ -14,6 +15,13 @@ body {
     padding: 0;
 }
 
+
+/* Cabeçalho e imagens */
+ /* Redimensiona as imagens */
+figure a img {
+    width: 45%; 
+    margin: auto;
+}
 
 
 fieldset {
@@ -23,6 +31,7 @@ fieldset {
     padding: 10px;
     margin-top: 20px; /* Adiciona uma margem superior para separar do conteúdo acima */
     text-align: center;
+
 }
 
 hr {
@@ -31,12 +40,14 @@ hr {
     margin-top: 20px;
 }
 
-
 /*#################################################################################################*/
 /* IDs */
 
 /*=================================botão kuromi===================================================*/
 #kuromi_botão {
+    width: 45%; 
+    height: auto; /* Ajuste a altura conforme necessário */
+    margin: 10px;
     width: 45%;
     height: 180px; /* Define uma altura fixa para o botão */
     margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
@@ -44,6 +55,8 @@ hr {
 }
 
 #kuromi_botão img {
+    width: 45%;  /* A imagem ocupa toda a largura da div */
+    height: auto; /* A imagem ocupa toda a altura da div */
     width: 100%;  /* A imagem ocupa toda a largura da div */
     height: 100%; /* A altura da imagem ocupa toda a altura da div */
     transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
