@@ -1,0 +1,158 @@
+
+/*#################################################################################################*/
+/* Campos de estilo */
+
+body {
+    background-image: url(imagens/Fundo.png);  /* Definindo uma imagem de fundo */
+    background-image: url('imagens/borda_esquerda.png'), url('imagens/borda_direita.png'), url('Fundo.png');
+    background-position:  left top, right top, center;
+    background-repeat: repeat-y, repeat-y, repeat;
+    background-size: auto 15%, auto 15%, auto;
+    text-align: center;
+    font-family: 'sans-serif', 'Arial';
+    width: 60%;
+    margin: 20%;
+    padding: 0;
+}
+
+
+/* Cabeçalho e imagens */
+ /* Redimensiona as imagens */
+figure a img {
+    width: 45%; 
+    margin: auto;
+}
+
+
+fieldset {
+    border-color: rgb(247, 0, 103);
+    border-width: 2px;
+    background-color: rgb(255, 192, 225, 0.699);
+    padding: 10px;
+    margin-top: 20px; /* Adiciona uma margem superior para separar do conteúdo acima */
+    text-align: center;
+
+}
+
+hr {
+    border-style: solid;
+    border-color: rgb(247, 0, 103);
+    margin-top: 20px;
+}
+
+/*#################################################################################################*/
+/* IDs */
+
+/*=================================botão kuromi===================================================*/
+#kuromi_botão {
+    width: 45%; 
+    height: auto; /* Ajuste a altura conforme necessário */
+    margin: 10px;
+    width: 45%;
+    height: 180px; /* Define uma altura fixa para o botão */
+    margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
+    display: block;
+}
+
+#kuromi_botão img {
+    width: 45%;  /* A imagem ocupa toda a largura da div */
+    height: auto; /* A imagem ocupa toda a altura da div */
+    width: 100%;  /* A imagem ocupa toda a largura da div */
+    height: 100%; /* A altura da imagem ocupa toda a altura da div */
+    transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
+    object-fit: contain; /* Mantém a proporção da imagem sem distorcer */
+}
+
+#kuromi_botão:hover img {
+    content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
+}
+
+/*=================================botão voltar===================================================*/
+
+/* Estilos gerais para o botão "Voltar" */
+#Voltar_botão {
+    width: 20%; /* Largura inicial para telas maiores */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+#Voltar_botão img {
+    width: 100%; /* A imagem ocupa 100% da largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: opacity 0.3s ease;
+}
+
+/* Media Query para telas pequenas (mobile) */
+@media (max-width: 768px) {
+    #Voltar_botão {
+        width: 40%; /* Aumenta o tamanho do botão para telas menores */
+    }
+
+    #Voltar_botão img {
+        width: 100%; /* A imagem ocupa 100% da largura da div, mas o botão vai ser maior */
+    }
+}
+
+/*=================================fieldset1===================================================*/
+
+#fieldset1 {
+    border-color: rgb(247, 0, 103);
+    border-width: 2px;
+    background-color: rgb(255, 192, 225, 0.699);
+    padding: 10px;
+    margin-top: 200px; /* Adiciona uma margem superior para separar do conteúdo acima */
+    text-align: center;
+}
+
+/*#################################################################################################*/
+/* textos */
+p {
+
+    text-align: center; /* Centraliza o texto dentro de cada coluna */
+    color: rgb(73, 5, 64);
+    font-size: 10;
+    SCALE: 1.45;
+    max-width: 30ch;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(131, 68, 120);
+    scale: 1;
+    text-align:-moz-center;
+    text-anchor:  middle;
+    max-width: 24ch
+}
+
+h2 {
+    color: rgb(206, 73, 144);
+    text-align: center;  /* Centraliza o texto */
+    margin: 0;  /* Remove qualquer margem extra */
+    padding: 0;  /* Remove o preenchimento extra */
+    scale: 1.1;
+}
+
+h1 {
+    color: rgb(247, 0, 103);
+    font-size: 4em;
+    font-family: 'sans-serif';
+    text-align: center;  /* Centraliza o texto */
+    margin: 0;  /* Remove qualquer margem extra */
+    padding: 0;  /* Remove o preenchimento extra */
+}
+li {
+    font-family: 'sans-serif';
+    font-size: 22px;
+    color: rgb(99, 0, 67);
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+    ol {
+    list-style-type: none;  /* Remove a numeração da lista */
+    padding: 0;
+    text-align: left;  /* Alinha os itens da lista à esquerda */
+    margin: 0 auto;
+    width: 80%;  /* Faz a lista ocupar 80% da largura da página */
+}
