@@ -7,17 +7,22 @@ body {
     background-image: url('imagens/borda_esquerda.png'), url('imagens/borda_direita.png'), url('Fundo.png');
     background-position:  left top, right top, center;
     background-repeat: repeat-y, repeat-y, repeat;
-    background-size: auto 100%, auto 100%, auto;
+    background-size: auto 15%, auto 15%, auto;
     text-align: center;
     font-family: 'sans-serif', 'Arial';
-    width: 80%;
-    margin: 10%;
+    width: 60%;
+    margin: 20%;
     padding: 0;
 }
 
 
 /* Cabeçalho e imagens */
  /* Redimensiona as imagens */
+figure a img {
+    width: 45%; 
+    margin: auto;
+}
+
 
 fieldset {
     border-color: rgb(247, 0, 103);
