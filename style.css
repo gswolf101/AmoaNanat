@@ -3,16 +3,17 @@
 /* Campos de estilo */
 
 body {
-    background-image: url(Fundo.png);  /* Definindo uma imagem de fundo */
+    background-image: url('Fundo.png'), url('imagens/borda_esquerda.png'), url('imagens/borda_direita.png');
+    background-position: center, left top, right top;
+    background-repeat: repeat, repeat-y, repeat-y;
+    background-size: cover, auto 100%, auto 100%;
     text-align: center;
     font-family: 'Arial', sans-serif;
     width: 60%;
     margin: 20%;
-    column-width: auto;
     padding: 0;
-    /*background-image: url(imagens/borda_esquerda.png);
-    background-repeat: repeat-y;*/
 }
+
 
 
 fieldset {
