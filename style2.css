@@ -105,6 +105,16 @@ hr {
     text-align: center;
 }
 
+/*=================================paragrafocod===================================================*/
+#paragrafocod {
+
+    text-align: center; /* Centraliza o texto dentro de cada coluna */
+    color: rgb(73, 5, 64);
+    font-size: 10;
+    SCALE: 1.45;
+    text-align: center;
+}
+
 /*#################################################################################################*/
 /* textos */
 p {
