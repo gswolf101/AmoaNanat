@@ -3,12 +3,12 @@
 /* Campos de estilo */
 
 body {
-    background-image: url('Fundo.png'), url('imagens/borda_esquerda.png'), url('imagens/borda_direita.png');
+    background-image: url('Fundo.png'), url('imagens/borda_esqueda.png'), url('imagens/borda_direita.png');
     background-position: center, left top, right top;
     background-repeat: repeat, repeat-y, repeat-y;
     background-size: cover, auto 100%, auto 100%;
     text-align: center;
-    font-family: 'Arial', sans-serif;
+    font-family: 'sans-serif', 'Arial';
     width: 60%;
     margin: 20%;
     padding: 0;
