@@ -71,14 +71,14 @@ table{
     
 }
 tfoot td{
-    background-color: #01316a;
+    background-color: (247, 0, 103);
     padding: 30px;
     font-size: 1.2em;
     color: #fff;
     font-weight: bold;
 }
 thead{
-    background-color: #01316a;
+    background-color: (247, 0, 103);
     font-size: 1.2em;
     color: #fff;
     font-variant-caps: small-caps;
