@@ -93,29 +93,6 @@ hr {
         width: 100%; /* A imagem ocupa 100% da largura da div, mas o botão vai ser maior */
     }
 }
-/*=================================tabeladicas===================================================*/
-
-table{
-    width: 100%;
-    
-}
-tfoot td{
-    background-color: (247, 0, 103);
-    padding: 30px;
-    font-size: 1.2em;
-    color: #fff;
-    font-weight: bold;
-}
-thead{
-    background-color: (247, 0, 103);
-    font-size: 1.2em;
-    color: #fff;
-    font-variant-caps: small-caps;
-}
-tr, td{
-    padding: 10px;
-}
-
 
 /*=================================fieldset1===================================================*/
 
@@ -135,7 +112,7 @@ tr, td{
     color: rgb(73, 5, 64);
     font-size: 10;
     SCALE: 1.45;
-    text-align: center;
+    
 }
 
 /*#################################################################################################*/
