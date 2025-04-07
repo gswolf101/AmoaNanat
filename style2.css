@@ -133,6 +133,16 @@ thead{
     color: #fff;
     font-variant-caps: small-caps;
 }
+
+tbody {
+    background-color: rgb(255, 192, 225, 0.699);
+    font-size: 1.2em;
+    color: rgb(131, 68, 120);
+    font-variant-caps: small-caps;
+
+}
+
+
 tr, td{
     padding: 10px;
 }
@@ -190,3 +200,4 @@ li {
     margin: 0 auto;
     width: 80%;  /* Faz a lista ocupar 80% da largura da página */
 }
+
