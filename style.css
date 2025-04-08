@@ -64,6 +64,28 @@ hr {
 #kuromi_botão:hover img {
     content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
 }
+
+/*=================================botão maru===================================================*/
+#maru_botão {
+    width: 45%; 
+    height: auto; /* Ajuste a altura conforme necessário */
+    margin: 10px;
+    width: 45%;
+    height: 180px; /* Define uma altura fixa para o botão */
+    margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
+    display: block;
+}
+
+#maru_botão img {
+    width: 45%;  /* A imagem ocupa toda a largura da div */
+    height: 100%; /* A altura da imagem ocupa toda a altura da div */
+    transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
+    object-fit: contain; /* Mantém a proporção da imagem sem distorcer */
+}
+
+#maru_botão:hover img {
+    content: url('imagens/Botão_maru2')/* Substitui a imagem ao passar o cursor */
+
 /*=================================tabeladicas===================================================*/
 
 table{
