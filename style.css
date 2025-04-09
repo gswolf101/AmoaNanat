@@ -1,4 +1,3 @@
-
 /*#################################################################################################*/
 /* Campos de estilo */
 
@@ -18,6 +17,14 @@ body {
 
 /* Cabeçalho e imagens */
  /* Redimensiona as imagens */
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaço entre as imagens */
+    flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
+}
+
 figure a img {
     width: 45%; 
     margin: auto;
@@ -46,16 +53,13 @@ hr {
 /*=================================botão kuromi===================================================*/
 #kuromi_botão {
     width: 45%; 
-    height: auto; /* Ajuste a altura conforme necessário */
-    margin: 10px;
-    width: 45%;
     height: 180px; /* Define uma altura fixa para o botão */
-    margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
-    display: block;
+    display: inline-block;
+    margin: 10px 0;
 }
 
 #kuromi_botão img {
-    width: 45%;  /* A imagem ocupa toda a largura da div */
+    width: 100%;  /* A imagem ocupa toda a largura da div */
     height: 100%; /* A altura da imagem ocupa toda a altura da div */
     transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
     object-fit: contain; /* Mantém a proporção da imagem sem distorcer */
@@ -68,16 +72,13 @@ hr {
 /*=================================botão maru===================================================*/
 #maru_botão {
     width: 45%; 
-    height: auto; /* Ajuste a altura conforme necessário */
-    margin: 10px;
-    width: 45%;
     height: 180px; /* Define uma altura fixa para o botão */
-    margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
-    display: block;
+    display: inline-block;
+    margin: 10px 0;
 }
 
 #maru_botão img {
-    width: 45%;  /* A imagem ocupa toda a largura da div */
+    width: 100%;  /* A imagem ocupa toda a largura da div */
     height: 100%; /* A altura da imagem ocupa toda a altura da div */
     transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
     object-fit: contain; /* Mantém a proporção da imagem sem distorcer */
@@ -192,7 +193,7 @@ li {
     margin: 5px 0;
 }
 
-    ol {
+ol {
     list-style-type: none;  /* Remove a numeração da lista */
     padding: 0;
     text-align: left;  /* Alinha os itens da lista à esquerda */
