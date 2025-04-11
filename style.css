@@ -1,7 +1,9 @@
+
 /*#################################################################################################*/
 /* Campos de estilo */
 
 body {
+    background-image: url(imagens/Fundo.png);  /* Definindo uma imagem de fundo */
     background-image: url('imagens/borda_esquerda.png'), url('imagens/borda_direita.png'), url('imagens/Fundo.png');
     background-position:  left top, right top, center;
     background-repeat: repeat-y, repeat-y, repeat;
@@ -16,14 +18,6 @@ body {
 
 /* Cabeçalho e imagens */
  /* Redimensiona as imagens */
-figure {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px; /* Espaço entre as imagens */
-    flex-wrap: wrap; /* Permite quebrar linha em telas pequenas */
-}
-
 figure a img {
     width: 45%; 
     margin: auto;
@@ -52,13 +46,16 @@ hr {
 /*=================================botão kuromi===================================================*/
 #kuromi_botão {
     width: 45%; 
+    height: auto; /* Ajuste a altura conforme necessário */
+    margin: 10px;
+    width: 45%;
     height: 180px; /* Define uma altura fixa para o botão */
-    display: inline-block;
-    margin: 10px 0;
+    margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
+    display: block;
 }
 
 #kuromi_botão img {
-    width: 100%;  /* A imagem ocupa toda a largura da div */
+    width: 45%;  /* A imagem ocupa toda a largura da div */
     height: 100%; /* A altura da imagem ocupa toda a altura da div */
     transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
     object-fit: contain; /* Mantém a proporção da imagem sem distorcer */
@@ -67,24 +64,31 @@ hr {
 #kuromi_botão:hover img {
     content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
 }
-
+/*=================================Nossa Flor===================================================*/
+#Nossa_Flor {
+    width: 50%;
+    height: auto;
+}
 /*=================================botão maru===================================================*/
 #maru_botão {
     width: 45%; 
+    height: auto\; /* Ajuste a altura conforme necessário */
+    margin: 10px;
+    width: 45%;
     height: 180px; /* Define uma altura fixa para o botão */
-    display: inline-block;
-    margin: 10px 0;
+    margin: 10px auto 20px; /* Centraliza a div e adiciona uma margem inferior para separar do próximo elemento */
+    display: block;
 }
 
 #maru_botão img {
-    width: 100%;  /* A imagem ocupa toda a largura da div */
+    width: 45%;  /* A imagem ocupa toda a largura da div */
     height: 100%; /* A altura da imagem ocupa toda a altura da div */
     transition: opacity 0.3s ease; /* Suaviza a transição de troca de imagem */
     object-fit: contain; /* Mantém a proporção da imagem sem distorcer */
 }
 
 #maru_botão:hover img {
-    content: url('imagens/Botão_maru2.png')/* Substitui a imagem ao passar o cursor */
+    content: url('imagens/Botão_maru2')/* Substitui a imagem ao passar o cursor */
 }
 /*=================================tabeladicas===================================================*/
 
@@ -192,7 +196,7 @@ li {
     margin: 5px 0;
 }
 
-ol {
+    ol {
     list-style-type: none;  /* Remove a numeração da lista */
     padding: 0;
     text-align: left;  /* Alinha os itens da lista à esquerda */
