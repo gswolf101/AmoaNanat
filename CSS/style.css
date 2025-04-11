@@ -2,8 +2,7 @@
 /* Campos de estilo */
 
 body {
-    background-image: url(imagens/Fundo.png);  /* Definindo uma imagem de fundo */
-    background-image: url('imagens/borda_esquerda.png'), url('imagens/borda_direita.png'), url('Fundo.png');
+    background-image: url('./imagens/borda_esquerda.png'), url('./imagens/borda_direita.png'), url('./Fundo.png');
     background-position:  left top, right top, center;
     background-repeat: repeat-y, repeat-y, repeat;
     background-size: auto 15%, auto 15%, auto;
@@ -66,7 +65,7 @@ hr {
 }
 
 #kuromi_botão:hover img {
-    content: url('imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
+    content: url('./imagens/hellokitty.png'); /* Substitui a imagem ao passar o cursor */
 }
 
 /*=================================botão maru===================================================*/
@@ -85,7 +84,7 @@ hr {
 }
 
 #maru_botão:hover img {
-    content: url('imagens/Botão_maru2.png')/* Substitui a imagem ao passar o cursor */
+    content: url('./imagens/Botão_maru2.png')/* Substitui a imagem ao passar o cursor */
 }
 /*=================================tabeladicas===================================================*/
 
