@@ -84,7 +84,7 @@ hr {
 }
 
 #maru_botão:hover img {
-    content: url('./imagens/Botão_maru2.png')/* Substitui a imagem ao passar o cursor */
+    content: url('imagens/Botão_maru2.png')/* Substitui a imagem ao passar o cursor */
 }
 /*=================================tabeladicas===================================================*/
 
